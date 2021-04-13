@@ -8,5 +8,6 @@ setup(name='Cathumbnailer',
       author_email='vipin.thomas@stud.th-deg.de',
       license='MIT',
       packages=[],
-      install_requires=['bs4','requests','re'],
+      install_requires=['bs4==0.0.1',
+      'requests==2.25.1'],
       zip_safe=False)
