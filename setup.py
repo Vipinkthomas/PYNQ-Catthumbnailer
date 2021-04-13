@@ -7,7 +7,7 @@ setup(name='Cathumbnailer',
       author='vipin',
       author_email='vipin.thomas@stud.th-deg.de',
       license='MIT',
-      packages=[],
+      packages=['bs4','requests','re'],
       install_requires=[
           'markdown',
       ],
